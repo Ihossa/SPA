@@ -3,7 +3,8 @@ body{
 	padding: 0;
 }
 header{
-	padding: 0 1rem;
+	margin: 0;
+	padding: 0 50px;
 	display: flex;
 	justify-content:space-between;
 	background: #000000;
@@ -34,7 +35,6 @@ header{
 			color:#606060;
 			font-size: 42px;
 			margin: 0 5px;
-
 		}
 		.before{
 			color:#606060;
@@ -44,8 +44,6 @@ header{
 			font-style: normal;
 			font-weight: 300;
 			transform: translateY(20%);
-
-
 		}	
 	}
 	.logo-ar{
@@ -59,5 +57,74 @@ header{
 			}
 		}
 	}
-
+}
+.main-content{
+	padding: 50px;
+	background: #cccccc;
+	.section1{
+		display: flex;
+		justify-content: flex-end;
+		margin: 0;
+		padding: 0;
+		font-family: 'Heebo', sans-serif;
+		margin-bottom: 15px; 
+		.main-info{ 
+			display: flex;
+			.content-title{
+				display: flex;
+				flex-direction: column;
+				margin-right: 15px; 
+				text-align: end;
+				h1{
+					font-size:24px;
+				}
+				.public-time{
+					font-size:14px;
+				}
+				.description{
+					font-size:18px;
+				}
+			}
+			.logo-chanel{
+				box-sizing: content-box;
+				margin-top:25px;
+				height: 60px;
+				width: 66px;
+				padding-top:6px;
+				text-align: center;
+				color:white;
+				background: #0071bc;
+				text-align: center;
+				font-size:21px;
+			}
+		}
+	}
+	.section2{
+		.section-video{
+			display: flex;
+			justify-content: center;
+			.coment{
+				background-color: white;
+				width: 325px;
+				min-height: 260px;
+			}
+			.content{
+				position: relative;
+				min-width: 750px;
+				background-color: black;
+				height: 460px;
+				.message{
+					width: 100%;
+					text-align: center;
+					font-size: 18px;
+					padding: 2px;
+					color:white;
+					position:absolute;
+					bottom: 0;
+					right:0;
+					background: #3fa9f5;
+				}
+			}	
+		}
+	}
 }

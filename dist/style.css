@@ -3,7 +3,8 @@ body {
   padding: 0; }
 
 header {
-  padding: 0 1rem;
+  margin: 0;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   background: #000000;
@@ -43,3 +44,60 @@ header {
   header .logo-ar .first-el .subtitle {
     text-align: center;
     font-family: 'Heebo', sans-serif; }
+
+.main-content {
+  padding: 50px;
+  background: #cccccc; }
+  .main-content .section1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 15px; }
+    .main-content .section1 .main-info {
+      display: flex; }
+      .main-content .section1 .main-info .content-title {
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+        text-align: end; }
+        .main-content .section1 .main-info .content-title h1 {
+          font-size: 24px; }
+        .main-content .section1 .main-info .content-title .public-time {
+          font-size: 14px; }
+        .main-content .section1 .main-info .content-title .description {
+          font-size: 18px; }
+      .main-content .section1 .main-info .logo-chanel {
+        box-sizing: content-box;
+        margin-top: 25px;
+        height: 60px;
+        width: 66px;
+        padding-top: 6px;
+        text-align: center;
+        color: white;
+        background: #0071bc;
+        text-align: center;
+        font-size: 21px; }
+  .main-content .section2 .section-video {
+    display: flex;
+    justify-content: center; }
+    .main-content .section2 .section-video .coment {
+      background-color: white;
+      width: 325px;
+      min-height: 260px; }
+    .main-content .section2 .section-video .content {
+      position: relative;
+      min-width: 750px;
+      background-color: black;
+      height: 460px; }
+      .main-content .section2 .section-video .content .message {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        padding: 2px;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: #3fa9f5; }
