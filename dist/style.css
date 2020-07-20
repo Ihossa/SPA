@@ -92,7 +92,8 @@ header {
       background-color: black;
       height: 460px; }
       .main-content .section2 .section-video .content .message {
-        width: 100%;
+        display: none;
+        width: 99.5%;
         text-align: center;
         font-size: 18px;
         padding: 2px;
@@ -101,3 +102,5 @@ header {
         bottom: 0;
         right: 0;
         background: #3fa9f5; }
+    .main-content .section2 .section-video :hover .message {
+      display: block; }
