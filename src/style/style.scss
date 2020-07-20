@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 0 1rem;
+	display: flex;
+	justify-content:space-between;
+	background: #000000;
+	height: 60px;
+	.logo-eng, .logo-ar{
+		display: flex;
+		.first-el{
+			.title{
+				margin: 0;
+				color: white;
+				font-size: 42px;
+				font-family: anisette-std, sans-serif;
+				font-style: normal;
+				font-weight: 300;
+			}
+			.subtitle{
+				text-align: end;
+				margin: 0;
+				color: red;
+				font-size: 14px;
+				font-family: anisette-std, sans-serif;
+				font-style: normal;
+				font-weight: 300;
+				transform: translateY(-8px);
+			}
+		}
+		.sting{
+			color:#606060;
+			font-size: 42px;
+			margin: 0 5px;
+
+		}
+		.before{
+			color:#606060;
+			font-size: 14px;
+			transition: 20px;
+			font-family: anisette-std, sans-serif;
+			font-style: normal;
+			font-weight: 300;
+			transform: translateY(20%);
+
+
+		}	
+	}
+	.logo-ar{
+		.first-el{
+			.title{
+				font-family: 'Heebo', sans-serif;
+			}
+			.subtitle{
+				text-align: center;
+				font-family: 'Heebo', sans-serif;
+			}
+		}
+	}
+
+}
